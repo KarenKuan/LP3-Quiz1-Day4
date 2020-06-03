@@ -17,18 +17,21 @@
         android:text="Click to view Notification" />
 
     <Button
+        android:id="@+id/btnBasic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/basic"/>
+        android:text="@string/basic" />
 
     <Button
+        android:id="@+id/btnPicture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bigPicture"/>
+        android:text="@string/bigPicture" />
 
     <Button
+        android:id="@+id/btnInBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/inbox"/>
+        android:text="@string/inbox" />
 
 </LinearLayout>
